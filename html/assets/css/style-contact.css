@@ -228,7 +228,7 @@ a:hover {
   text-decoration: none;
 }
 p {
-  color: #595457;
+  color: #3a3864;
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
@@ -237,9 +237,9 @@ p {
   position: relative;
 }
 .blue-brd-btn {
-  color: #FFFFFF;
+  color: #20add0;
   padding: 14px 25px;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #20add0;
   font-size: 15px;
   text-align: center;
   font-weight: 700;
@@ -248,8 +248,8 @@ p {
   transition: 0.2s linear;
 }
 .blue-brd-btn:hover {
-  background: #FFFFFF;
-  color: #666666;
+  background: #20add0;
+  color: #fff;
   text-decoration: none;
 }
 .see-brd-btn {
@@ -259,19 +259,19 @@ p {
   border: 2px solid #9D1916;
   font-size: 15px;
   text-align: center;
-  background: #920100;
+  background: #9D1916;
   cursor: pointer;
   font-family: "Myriad-Pro-Regular", serif;
   transition: 0.2s linear;
 }
 .see-brd-btn:hover {
-  background: #000000;
-  border: 2px solid #000000;
+  background: #920100;
+  border: 2px solid #920100;
   color: #fff;
   text-decoration: none;
 }
 .h2-main {
-  color: #920100;
+  color: #131149;
   font-weight: 600;
   font-size: 36px;
   line-height: 51px;
@@ -290,10 +290,10 @@ p {
    ==================================== */
 .text-head h5 {
   font-size: 18px;
-  color: #666666;
+  color: #20add0;
   margin-bottom: 25px;
 }
-/* 04. Base Style Form
+/* 04. Base Style Form (input)
    ==================================== */
 form.custom-form input,
 form.custom-form textarea {
@@ -355,7 +355,7 @@ form.custom-form .form-group {
 .typography h5,
 .typography h6 {
   margin-bottom: 30px;
-  color: #000000;
+  color: #110f46;
 }
 .typography h1 span,
 .typography h2 span,
@@ -384,12 +384,12 @@ form.custom-form .form-group {
   width: 100%;
   height: 3px;
   margin: 60px 0;
-  background-color: #000000;
+  background-color: #110f46;
 }
 .unordered-list li {
   list-style: none;
   font-size: 16px;
-  color: #000000;
+  color: #131149;
   line-height: 26px;
 }
 .unordered-list li:before {
@@ -405,7 +405,7 @@ form.custom-form .form-group {
 }
 .ordered-list li {
   font-size: 16px;
-  color: #000000;
+  color: #131149;
   line-height: 26px;
 }
 .ordered-list li ul {
@@ -475,7 +475,7 @@ header .nav-menu li:not(:last-child) {
 }
 header .nav-menu li.top-sub-menu:hover {
   cursor: pointer;
-  background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
 }
 header .nav-menu li.top-sub-menu:hover > a {
   color: #666666;
@@ -484,7 +484,7 @@ header .nav-menu li.top-sub-menu:hover .sub-menu {
   opacity: 1;
   visibility: visible;
   pointer-events: all;
-  background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
 }
 header .nav-menu .sub-menu {
   top: 100%;
@@ -580,11 +580,11 @@ header .mobile-btn span:after {
    ==================================== */
 .header-type-2 {
   top: 0;
-  background: ##FFFFFF;
-  background: linear-gradient(to bottom, #f1f1f1 0%, #f1f1f1 100%);
+  background: #1f0e36;
+  background: linear-gradient(to bottom, #1f0e36 0%, #321f52 100%);
 }
 .header-type-2 .nav-menu li {
-  padding: 43px 21px;
+  padding: 36px 21px;
 }
 .header-type-2 .blue-brd-btn {
   margin-left: 12px;
@@ -619,7 +619,7 @@ header .mobile-btn span:after {
   padding-right: 50px;
 }
 .reasons-block .reasons-desc-div h4 {
-  color: #000000;
+  color: #131149;
   margin-bottom: 6px;
   font-size: 18px;
   font-weight: 700;
@@ -673,7 +673,7 @@ header .mobile-btn span:after {
 }
 .philosophy-block .philosophy-div2 h4 {
   font-size: 18px;
-  color: #666666;
+  color: #20add0;
   font-weight: 700;
   line-height: 11px;
   margin-bottom: 20px;
@@ -690,7 +690,7 @@ header .mobile-btn span:after {
 }
 .philosophy-block .coin-speacial-block {
   width: 317px;
-  background: #f4e5e5;
+  background: #110f46;
   position: absolute;
   right: 68px;
   top: 203px;
@@ -701,20 +701,20 @@ header .mobile-btn span:after {
   max-width: 54px;
 }
 .philosophy-block .coin-speacial-block h4 {
-  color: #000000;
+  color: #fff;
   font-size: 18px;
   margin-top: 23px;
   margin-bottom: 5px;
 }
 .philosophy-block .coin-speacial-block p {
   font-size: 16px;
-  color: #000000;
+  color: #abaae6;
   line-height: 28px;
   margin-bottom: 26px;
 }
 .philosophy-block .coin-speacial-block span {
   display: inline-block;
-  color: #666666;
+  color: #20add0;
   font-size: 36px;
 }
 .philosophy-block .see-brd-btn {
@@ -731,7 +731,6 @@ header .mobile-btn span:after {
   background: url('../img/iphone-background.png') no-repeat center;
   background-size: cover;
 }
-
 .iphone-block .icon {
   width: 72px;
   height: 72px;
@@ -764,7 +763,7 @@ header .mobile-btn span:after {
   margin-top: 42px;
 }
 .live-currency .live-currency-div1 h4 {
-  color: #666666;
+  color: #20add0;
   font-size: 18px;
   font-weight: 700;
 }
@@ -800,10 +799,10 @@ header .mobile-btn span:after {
 .live-currency .live-currency-cont h4 {
   font-size: 18px;
   text-align: center;
-  color: #000000;
+  color: #3a3864;
 }
 .live-currency .live-currency-cont p {
-  color: #666666;
+  color: #20add0;
   text-align: center;
   font-weight: 400;
   margin-top: 5px;
@@ -817,7 +816,7 @@ header .mobile-btn span:after {
   background-size: cover;
 }
 .price-plan-block .h2-main {
-  color: #fff;''
+  color: #fff;
   text-align: center;
   width: 100%;
   display: block;
@@ -830,7 +829,7 @@ header .mobile-btn span:after {
 }
 .price-plan-block .price-plan-item-inside {
   padding: 51px 35px 26px 35px;
-  background-color: #B2B2B2;
+  background-color: #1c1b4e;
   text-align: center;
 }
 .price-plan-block .price-plan-item-inside h4 {
@@ -859,14 +858,14 @@ header .mobile-btn span:after {
   padding: 14px 45px;
 }
 .price-plan-block .price-plan-text-1 {
-  color: #000000;
+  color: #abaae6;
   line-height: 1.5;
   padding-bottom: 25px;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #323260;
   margin-bottom: 28px;
 }
 .price-plan-block .price-plan-text-2 {
-  color: #FFFFFF;
+  color: #abaae6;
   line-height: 1.7;
   margin-bottom: 26px;
 }
@@ -888,20 +887,20 @@ header .mobile-btn span:after {
 .reviews-wrapper .reviews-inside h4 {
   font-size: 18px;
   text-align: center;
-  color: #000000;
+  color: #131149;
   margin-top: 7px;
   font-weight: 700;
   margin-bottom: 0;
 }
 .reviews-wrapper .reviews-inside p {
-  color: #000000;
+  color: #131149;
 }
 .reviews-wrapper .reviews-inside .review-text {
   font-size: 18px;
   padding: 33px 52px 0 52px;
   font-weight: 400;
   font-style: italic;
-  color: #000000;
+  color: #131149;
   line-height: 29px;
 }
 /* 07. News Slider
@@ -938,11 +937,11 @@ header .mobile-btn span:after {
   display: inline-block;
   width: 7px;
   height: 7px;
-  background: #666666;
+  background: #3a3864;
   border-radius: 90px;
 }
 #news-owl-carousel .owl-dots .active span {
-  background: #920100;
+  background: #39b2d3;
 }
 /* 08. Our Team
    ==================================== */
@@ -953,7 +952,7 @@ header .mobile-btn span:after {
 }
 .our-team .first {
   border-radius: 100%;
-  box-shadow: -15px -2px 0 8px #f1f1f1;
+  box-shadow: -15px -2px 0 8px #f5f9fc;
 }
 .our-team .images {
   margin: 33px 0 0 22px;
@@ -964,19 +963,19 @@ header .mobile-btn span:after {
 }
 .our-team h5 {
   font-size: 18px;
-  color: #000000;
+  color: #131149;
   font-weight: 700;
   margin-bottom: 4px;
 }
 .our-team span {
   font-size: 16px;
-  color: #666666;
+  color: #3a3864;
 }
 .our-team .text {
   padding-left: 61px;
 }
 .our-team .text h4 {
-  color: #666666;
+  color: #20add0;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 13px;
@@ -988,7 +987,7 @@ header .mobile-btn span:after {
   margin-bottom: 10px;
 }
 .our-team .text a {
-  color: #666666;
+  color: #20add0;
   font-size: 15px;
 }
 .our-team .text a img {
@@ -1120,7 +1119,6 @@ footer .footer-social-wrapper {
  */
 /* 01. Info block
    ==================================== */
-
 .courusel-container {
   padding: 232px 0 135px;
   position: relative;
@@ -1128,7 +1126,6 @@ footer .footer-social-wrapper {
   background: url(../img/background.png) no-repeat center;
   background-size: cover;
 }
-
 .courusel-container .inside {
   max-width: 560px;
 }
@@ -1146,7 +1143,7 @@ footer .footer-social-wrapper {
 .courusel-container .main-slider-logo-block img {
   max-width: 140px;
 }
-/*.courusel-container:before {
+.courusel-container:before {
   content: "";
   width: 2px;
   height: 87px;
@@ -1156,32 +1153,32 @@ footer .footer-social-wrapper {
       transform: translateX(-50%);
   position: absolute;
   display: inline-block;
-  background-color: #FFFFFF;
-} */
+  background-color: #20add0;
+}
 #sync1 .item h1 {
   font-size: 45px;
-  color: #000000;
-  font-weight: 600;
+  color: #fff;
+  font-weight: 900;
   line-height: 56px;
 }
 #sync1 .item p {
-  color: #595457;
+  color: #abaae6;
   line-height: 27px;
   padding: 0 130px 0 10px;
   margin: 17px 0 41px;
   font-size: 18px;
-  border-left: 2px solid #595457;
+  border-left: 2px solid #20add0;
 }
 #sync1 .item .blue-brd-btn {
-  background: #9D1916;
-  border: 2px solid #9D1916;
-  color: #FFFFFF;
+  background: #20add0;
+  border: 2px solid #20add0;
+  color: #fff;
   font-family: 'Muli', sans-serif;
 }
 #sync1 .item .blue-brd-btn:hover,
 #sync1 .item .blue-brd-btn:active {
-  background: #920100;
-  border: 2px solid #920100;
+  background: #110f46;
+  border: 2px solid #110f46;
 }
 #sync1 .owl-dots {
   display: none;
@@ -1194,7 +1191,7 @@ footer .footer-social-wrapper {
 #sync2 .item {
   padding: 10px 0;
   margin: 5px;
-  color: #000000;
+  color: #27266c;
   border-radius: 3px;
   text-align: center;
   cursor: pointer;
@@ -1203,7 +1200,7 @@ footer .footer-social-wrapper {
   font-size: 18px;
 }
 #sync2 .current .item {
-  color: #000000;
+  color: #abaae6;
 }
 .owl-carousel {
   cursor: url(../img/drag.png) 16 9, ew-resize;
@@ -1256,10 +1253,10 @@ footer .footer-social-wrapper {
   padding: 145px 0 0;
   margin-bottom: 118px;
   max-height: 653px;
-  background-size: cover !important;
+  /*background-size: cover !important;*/
   position: relative;
   overflow-x: hidden;
-  background: url(../img/first-section-bg.png) no-repeat;
+  /*background: url(../img/first-section-bg.png) no-repeat;*/
 }
 .first-section .text {
   max-width: 394px;
@@ -1273,14 +1270,14 @@ footer .footer-social-wrapper {
 }
 .first-section .text span {
   font-size: 28px;
-  color: #666666;
+  color: #20add0;
 }
 .first-section .text .line {
   width: 68px;
   height: 2px;
   margin-right: 15px;
   display: inline-block;
-  background-color: #666666;
+  background-color: #20add0;
 }
 .first-section .text .line:nth-child(2) {
   display: none;
@@ -1294,14 +1291,14 @@ footer .footer-social-wrapper {
 .first-section.not-images {
   padding: 134px 0 322px;
   max-height: 660px;
-  /*background: url(../img/first-section-not-images.png) no-repeat;*/
+  background: url(../img/first-section-not-images.png) no-repeat;
 }
 .first-section.not-images .text {
   max-width: 100%;
   text-align: center;
 }
 .first-section.bg2 {
-  /*background: url(../img/first-section-bg-contact.png) no-repeat;*/
+  background: url(../img/first-section-bg-contact.png) no-repeat;
 }
 .first-section .cloud,
 .first-section .cloud-two,
@@ -1393,7 +1390,7 @@ footer .footer-social-wrapper {
   margin-right: 29px;
 }
 .about-working ul li h5 {
-  color: #000000;
+  color: #131149;
   font-weight: 700;
   margin-bottom: 6px;
 }
@@ -1422,10 +1419,10 @@ footer .footer-social-wrapper {
   background-color: #f5f9fc;
 }
 .team-slider .item:hover .info-team h5 {
-  color: #666666;
+  color: #20add0;
 }
 .team-slider .item:hover .info-team svg path {
-  fill: #666666;
+  fill: #20add0;
 }
 .team-slider .info-team {
   opacity: 1;
@@ -1440,7 +1437,7 @@ footer .footer-social-wrapper {
   fill: #3a3864;
 }
 .team-slider .info-team h5 {
-  color: #666666;
+  color: #131149;
   font-weight: 700;
   margin-bottom: 6px;
   transition: 0.2s linear;
@@ -1448,7 +1445,7 @@ footer .footer-social-wrapper {
 .team-slider .info-team .line {
   width: 34px;
   height: 2px;
-  background-color: #666666;
+  background-color: #1c1b4e;
   margin: 11px auto 8px;
   display: block;
 }
@@ -1459,7 +1456,7 @@ footer .footer-social-wrapper {
 }
 .team-slider .info-team span {
   font-weight: 400;
-  color: #000000;
+  color: #131149;
   font-size: 16px;
   font-style: italic;
 }
@@ -1478,7 +1475,7 @@ footer .footer-social-wrapper {
   margin-left: -20px;
 }
 .team-slider .slick-arrow:hover svg path {
-  fill: #666666;
+  fill: #a3c3eb;
 }
 .team-slider-text {
   margin-top: -15px;
@@ -1598,7 +1595,7 @@ footer .footer-social-wrapper {
 #table thead td {
   font-size: 18px;
   font-weight: 700;
-  color: #666666;
+  color: #20add0;
   padding: 33px 0;
   cursor: pointer;
 }
@@ -1638,7 +1635,7 @@ footer .footer-social-wrapper {
 }
 #table tbody tr td:first-child {
   padding-left: 30px;
-  color: #000000;
+  color: #131149;
 }
 #table tbody tr td:first-child img {
   margin-right: 22px;
@@ -1651,8 +1648,13 @@ footer .footer-social-wrapper {
 /*=========================================
 =            10. Contact Style            =
 =========================================*/
+.color-text {
+  color: #ffffff
+}
 .contact .first-section.not-images {
   background: url(../img/first-section-bg-contact.jpg) no-repeat;
+  background-size:cover;
+  background-position: center;
 }
 .contact-block {
   margin-top: -384px;
@@ -1660,12 +1662,20 @@ footer .footer-social-wrapper {
 }
 .contact-block .bg {
   padding: 57px 30px 28px 55px;
-  background-color: #666666;
-  height: 537px;
+  background-color: rgba(102, 102, 102, 0.9);
+  color: #ffffff;
 }
 .contact-block h4 {
   margin-bottom: 63px;
   color: #ffffff;
+}
+
+.footer-social {
+  padding-bottom: 15px;
+}
+
+.underline { /*new*/
+  text-decoration: underline;
 }
 .contact-block form.custom-form .form-group {
   width: 306px;
@@ -1700,7 +1710,7 @@ footer .footer-social-wrapper {
 .contact-block .contact-info ul li span {
   font-size: 16px;
   line-height: 27px;
-  color: #f5f9fc;
+  color: #ffffff;
 }
 .contact-block .contact-info ul li a {
   font-size: 16px;
@@ -1759,25 +1769,25 @@ footer .footer-social-wrapper {
   -webkit-justify-content: space-between;
   padding: 27px 20px 23px 32px;
   min-height: 177px;
-  background-color: #f1f1f1;
+  background-color: #f5f9fc;
 }
 .post .last-news-date {
-  color: #666666;
+  color: #20add0;
   font-size: 16px;
   margin-bottom: -11px;
 }
 .post .last-news-title {
-  color: #920100;
+  color: #131149;
   font-size: 18px;
   font-weight: 700;
   line-height: 28px;
 }
 .post .last-news-title:hover {
-  color: #000000;
+  color: #20add0;
 }
 .post .read-more-btn {
   display: inline-block;
-  color: #666666;
+  color: #20add0;
   position: relative;
   font-size: 15px;
 }
@@ -1785,10 +1795,10 @@ footer .footer-social-wrapper {
   transition: 0.2s linear;
 }
 .post .read-more-btn:hover {
-  color: #666666;
+  color: #110f46;
 }
 .post .read-more-btn:hover svg use {
-  fill: #666666;
+  fill: #110f46;
 }
 .post.post-grid .last-news-info-wrap {
   padding: 15px 20px 23px 32px;
@@ -1803,16 +1813,16 @@ footer .footer-social-wrapper {
   margin-top: 13px;
 }
 .pagination li.active a {
-  color: #000000;
+  color: #20add0;
   font-weight: 700;
 }
 .pagination li a {
   font-size: 18px;
   font-weight: 600;
-  color: #666666;
+  color: #3a3864;
 }
 .pagination li a:hover {
-  color: #000000;
+  color: #20add0;
 }
 .pagination li.inside {
   margin: 0 10px;
@@ -1821,7 +1831,7 @@ footer .footer-social-wrapper {
   margin-top: 1px;
 }
 .pagination li:hover svg path {
-  fill: #666666;
+  fill: #a3c3eb;
 }
 /*=====  End of 11. Style Blog Grid  ======*/
 /*========================================
@@ -1839,7 +1849,7 @@ footer .footer-social-wrapper {
 /* 01. Global Style Widget
    ==================================== */
 .widget-title {
-  color: #000000;
+  color: #131149;
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1851,12 +1861,12 @@ aside > div {
   margin-bottom: 60px;
 }
 aside a {
-  color: #9D1916;
+  color: #3a3864;
   font-size: 16px;
   font-weight: 400;
 }
 aside a:hover {
-  color: #000000;
+  color: #20add0;
 }
 /* 02. Widget Category
    ==================================== */
@@ -1864,7 +1874,7 @@ aside a:hover {
   margin-bottom: 20px;
 }
 .widget-category ul li span {
-  color: #9D1916;
+  color: #20add0;
   display: inline-block;
   margin-right: 7px;
   font-weight: 700;
@@ -1875,12 +1885,12 @@ aside a:hover {
   margin-bottom: 27px;
 }
 .widget-post ul li a {
-  color: #666666;
-  letter-spacing: 0.2px;
+  color: #20add0;
+  letter-spacing: 0.8px;
   line-height: 25px;
 }
 .widget-post ul li a:hover {
-  color: #000000;
+  color: #131149;
 }
 /* 04. Widget Archive
    ==================================== */
@@ -1888,10 +1898,10 @@ aside a:hover {
   margin-bottom: 20px;
 }
 .widget-archive ul li a {
-  letter-spacing: 0.2px;
+  letter-spacing: 0.8px;
 }
 .widget-archive ul li span {
-  color: #666666;
+  color: #20add0;
   display: inline-block;
   margin-left: 5px;
   font-style: italic;
@@ -1914,16 +1924,17 @@ aside a:hover {
   margin-bottom: 14px;
 }
 .post.list .last-news-title {
-  font-size: 31px;
-  line-height: 36px;
+  font-size: 26px;
+  line-height: 31px;
 }
 .post.list .last-news-img-wrap {
   margin-bottom: 21px;
 }
 .post.list .last-news-date {
   font-size: 14px;
-  color: #595457;
-  font-weight: 600;
+  font-style: italic;
+  color: #3a3864;
+  font-weight: 400;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
@@ -1970,7 +1981,7 @@ aside a:hover {
 .single-post .last-news-info-wrap .line {
   width: 68px;
   height: 2px;
-  background-color: #666666;
+  background-color: #20add0;
   margin: 0 auto 22px;
 }
 .single-post .last-news-title {
@@ -1982,7 +1993,7 @@ aside a:hover {
   text-align: center;
 }
 .single-post .last-news-title:hover {
-  color: #000000;
+  color: #131149;
 }
 .single-post .last-news-img-wrap {
   position: relative;
@@ -1995,7 +2006,7 @@ aside a:hover {
   color: #fff;
   font-style: italic;
   position: absolute;
-  background-color: #000000;
+  background-color: #131149;
   padding: 21px 52px;
 }
 .single-post .author {
@@ -2006,11 +2017,11 @@ aside a:hover {
 }
 .single-post .author h5 {
   font-weight: 700;
-  color: #000000;
+  color: #131149;
   margin-bottom: 2px;
 }
 .single-post .author span {
-  color: #000000;
+  color: #3a3864;
   font-size: 15px;
   line-height: 21px;
 }
@@ -2043,8 +2054,8 @@ aside a:hover {
   margin-right: 19px;
 }
 .single-post .post-footer ul li:hover svg path {
-  fill: #666666;
-  stroke: #666666;
+  fill: #20add0;
+  stroke: #20add0;
 }
 .single-post .post-footer .tags a {
   display: inline-block;
@@ -2056,7 +2067,7 @@ aside a:hover {
   margin-right: 21px;
 }
 .single-post .post-footer .tags a:hover {
-  color: #666666;
+  color: #20add0;
 }
 .single-post #news-owl-carousel .last-news-title {
   font-size: 18px;
@@ -2093,7 +2104,7 @@ blockquote p {
   color: #3a3864;
   font-style: italic;
   padding: 0 60px 0 60px;
-  border-left: 2px solid #666666;
+  border-left: 2px solid #20add0;
 }
 /*=====  End of 14. Style Single Blog  ======*/
 /*============================================
@@ -2146,7 +2157,7 @@ blockquote p {
 }
 .login-page .custom-form span a,
 .sign-up .custom-form span a {
-  color: #666666;
+  color: #20add0;
   font-family: "Myriad-Pro-Regular", serif;
 }
 /*=====  End of 15. Style Login Page  ======*/
@@ -2258,7 +2269,7 @@ blockquote p {
   position: relative;
 }
 #accordion .accordion-header button {
-  color: #000000;
+  color: #131149;
   font-size: 20px;
   font-weight: 700;
   width: 100%;
@@ -2287,7 +2298,7 @@ blockquote p {
 }
 #accordion .accordion-header button svg path,
 #accordion .accordion-header button svg polygon {
-  fill: #666666;
+  fill: #20add0;
 }
 #accordion .accordion-header button.collapsed svg {
   -ms-transform: rotate(0);
@@ -2295,7 +2306,7 @@ blockquote p {
 }
 #accordion .accordion-header button:hover svg path,
 #accordion .accordion-header button:hover svg polygon {
-  fill: #000000;
+  fill: #131149;
 }
 #accordion .accordion-body {
   padding: 2px 20px 47px 30px;
@@ -2347,7 +2358,7 @@ blockquote p {
   font-weight: 600;
 }
 .error-page .text a {
-  color: #666666;
+  color: #20add0;
   font-size: 20px;
   font-weight: 600;
 }
