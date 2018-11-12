@@ -57,10 +57,10 @@
 }
 @media only screen and (min-width: 1200px) and (max-width: 1340px) {
   #sync1.owl-theme .owl-next {
-    right: 10px;
+    right: -40px;
   }
   #sync1.owl-theme .owl-prev {
-    left: 10px;
+    left: -40px;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -136,10 +136,10 @@
     padding: 0 11px;
   }
   #sync1.owl-theme .owl-next {
-    right: 10px;
+    right: -40px;
   }
   #sync1.owl-theme .owl-prev {
-    left: 10px;
+    left: -40px;
   }
   .reasons-block h2 {
     padding-right: 0;
