@@ -267,8 +267,8 @@ p {
   transition: 0.2s linear;
 }
 .see-brd-btn:hover {
-  background: #000000;
-  border: 2px solid #000000;
+  background: #666666;
+  border: 2px solid #666666;
   color: #fff;
   text-decoration: none;
 }
@@ -278,6 +278,14 @@ p {
   font-size: 36px;
   line-height: 51px;
   margin-bottom: 20px;
+}
+
+.job-open {
+  color: #920100;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 51px;
+
 }
 /* 02. Custom Fonts
    ==================================== */
@@ -475,10 +483,10 @@ header .nav-menu li {
 header .nav-menu li:not(:last-child) {
   margin-right: 0;
 }
-header .nav-menu li.top-sub-menu:hover {
+/*header .nav-menu li.top-sub-menu:hover {
   cursor: pointer;
   background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 100%);
-}
+}*/
 header .nav-menu li.top-sub-menu:hover > a {
   color: #666666;
 }
@@ -1265,7 +1273,7 @@ footer .footer-social-wrapper {
 }
 .first-section .text {
   max-width: 394px;
-  padding-top: 98px;
+  padding-top: 20px;
 }
 .first-section .text h1 {
   color: #000000;
@@ -1355,7 +1363,8 @@ footer .footer-social-wrapper {
   top: 81%;
 }
 .text-about {
-  margin-bottom: 98px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .text-about .h2-main {
   margin-bottom: 10px;
@@ -1769,17 +1778,17 @@ footer .footer-social-wrapper {
   margin-bottom: -11px;
 }
 .post .last-news-title {
-  color: #920100;
+  color: #000000;
   font-size: 18px;
   font-weight: 700;
   line-height: 28px;
 }
 .post .last-news-title:hover {
-  color: #000000;
+  color: #666666;
 }
 .post .read-more-btn {
   display: inline-block;
-  color: #666666;
+  color: #920100;
   position: relative;
   font-size: 15px;
 }
@@ -2607,6 +2616,19 @@ blockquote p {
     width: 1200px;
   }
 }
+
+  .seguir-leyendo {
+    padding-top: 15px;
+    color: #920100;
+  }
+
+  .btn-apli {
+  width: 150px;
+  }
+
+  .job {
+    padding-top: 180px;
+  }
 /*=====  End of Style IE  ======*/
 /*===================================
 =            Color Theme            =
