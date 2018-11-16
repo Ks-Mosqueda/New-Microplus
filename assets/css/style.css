@@ -1448,7 +1448,7 @@ footer .footer-social-wrapper {
   width: 21px;
 }
 .team-slider .info-team svg path {
-  fill: #3a3864;
+  fill: #000;
 }
 .team-slider .info-team h5 {
   color: #666666;
@@ -1464,7 +1464,7 @@ footer .footer-social-wrapper {
   display: block;
 }
 .team-slider .info-team p {
-  color: #3a3864;
+  color: #666666;
   line-height: 22px;
   padding: 0 50px 15px 50px;
 }
@@ -1484,12 +1484,17 @@ footer .footer-social-wrapper {
 }
 .team-slider .slick-arrow.next {
   margin-left: 22px;
+  fill: red;
 }
 .team-slider .slick-arrow.prev {
   margin-left: -20px;
 }
 .team-slider .slick-arrow:hover svg path {
   fill: #666666;
+}
+
+.team-slider .slick-arrow svg path {
+  fill: #920100;
 }
 .team-slider-text {
   margin-top: -15px;
@@ -2408,7 +2413,7 @@ blockquote p {
   border-bottom: 2px solid transparent;
 }
 .calculator .nav-pills li a.active {
-  color: #20add0;
+  color: #666666;
   background-color: transparent;
   border-bottom: 2px solid #20add0;
 }
