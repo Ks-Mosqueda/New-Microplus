@@ -827,7 +827,7 @@ header .mobile-btn span:after {
   background-size: cover;
 }
 .price-plan-block .h2-main {
-  color: #fff;''
+  color: #920100;''
   text-align: center;
   width: 100%;
   display: block;
@@ -2268,7 +2268,7 @@ blockquote p {
 }
 #accordion .accordion-content {
   margin-bottom: 24px;
-  background-color: #f5f9fc;
+  background-color: #f1f1f1;
 }
 #accordion .accordion-header {
   position: relative;
@@ -2317,7 +2317,7 @@ blockquote p {
   padding: 2px 20px 47px 30px;
 }
 #accordion .accordion-body p {
-  color: #3a3864;
+  color: #000000;
   font-size: 18px;
   line-height: 31px;
 }
@@ -2637,6 +2637,10 @@ blockquote p {
 
   .services-detail {
     padding-top: 180px;
+  }
+
+  .other-services {
+    text-align: center;
   }
 /*=====  End of Style IE  ======*/
 /*===================================
