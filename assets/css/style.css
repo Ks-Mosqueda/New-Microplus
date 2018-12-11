@@ -830,7 +830,7 @@ header .mobile-btn span:after {
   color: #920100;''
   text-align: center;
   width: 100%;
-  display: block;
+  display:inline-block;
   margin-bottom: 51px;
 }
 .price-plan-block .price-plan-icon-wrap {
@@ -840,7 +840,7 @@ header .mobile-btn span:after {
 }
 .price-plan-block .price-plan-item-inside {
   padding: 51px 35px 26px 35px;
-  background-color: #B2B2B2;
+  background-color: #666666;
   text-align: center;
 }
 .price-plan-block .price-plan-item-inside h4 {
@@ -2640,7 +2640,7 @@ blockquote p {
   }
 
   .other-services {
-    text-align: center;
+    margin-left: 514px;
   }
 /*=====  End of Style IE  ======*/
 /*===================================
