@@ -524,7 +524,13 @@ header .nav-menu .sub-menu li:not(:last-child) {
   margin-bottom: 17px;
 }
 header .logo {
-  max-width: 108px;
+  background-size: cover;
+  background-size:100px 100px;
+  background:url(../img/logo-05.png) center;
+  width:100px;
+  height:100px;
+  background-repeat: no-repeat;
+
 }
 header .logo-fixed {
   display: none;
@@ -2642,6 +2648,16 @@ blockquote p {
   .other-services {
     margin-left: 514px;
   }
+header a {
+width: 100%;
+height: 100px;
+display: block;
+margin:0;
+padding:0;
+z-index: 5;
+text-decoration: none;
+}
+
 /*=====  End of Style IE  ======*/
 /*===================================
 =            Color Theme            =

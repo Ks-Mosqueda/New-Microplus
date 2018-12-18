@@ -321,6 +321,28 @@
   .courusel-container .main-slider-logo-block img {
     max-width: 115px;
   }
+  @media only screen and (min-width: 100px) and (max-width: 700px) {
+  header .logo {
+  width:200px;
+  height:100px;
+  background:url(../img/logo-white-03.png) center;
+  background-size: 200px 100px;
+  margin: 30px;
+  }
+  }
+
+  @media only screen and (min-width: 100px) and (max-width: 700px) {
+  header .nav-menu a{
+  color: #ffffff;
+  }
+  }
+
+  @media only screen and (min-width: 100px) and (max-width: 700px) {
+  header {
+  background-color: #920100;
+  }
+  }
+
   header,
   .header-type-2 {
     padding: 25px 0;
@@ -334,7 +356,7 @@
     padding-bottom: 10px;
     position: fixed;
     z-index: 9;
-    background: linear-gradient(to bottom, #920100 0%, #9D1916 100%);
+    background: linear-gradient(to bottom, #920100 100%, #9D1916 100%);
   }
   header .blue-brd-btn,
   .header-type-2 .blue-brd-btn {
