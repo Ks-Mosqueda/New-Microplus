@@ -318,16 +318,20 @@
   /*=================================
 	=            Home Page            =
 	=================================*/
+
   .courusel-container .main-slider-logo-block img {
     max-width: 115px;
   }
+
+  /* =======================   media movil   ======================   */
+
   @media only screen and (min-width: 100px) and (max-width: 700px) {
   header .logo {
-  width:200px;
-  height:100px;
+  width:150px;
+  height:50px;
   background:url(../img/logo-white-03.png) center;
-  background-size: 200px 100px;
-  margin: 30px;
+  background-size: 150px 50px;
+  margin-left: 15px;
   }
   }
 
@@ -343,6 +347,61 @@
   }
   }
 
+  @media only screen and (min-width: 100px) and (max-width: 700px) {
+  .courusel-container .inside {
+    max-width: 180px;
+  }
+  }
+
+  @media only screen and (min-width: 100px) and (max-width: 700px) {
+    #sync1 .item h1 {
+      font-size: 16px;
+      color: #000000;
+      font-weight: 600;
+      line-height: 18px;
+  }
+  }
+/* =============   end media movil ====================== */
+
+/* =============   media tablet  =========================*/
+  @media only screen and (min-width: 700px) and (max-width: 1024px) {
+  header .logo {
+  width:150px;
+  height:50px;
+  background:url(../img/logo-white-03.png) center;
+  background-size: 150px 50px;
+  margin-left: 15px;
+  background-repeat: no-repeat;
+  }
+  }
+
+  @media only screen and (min-width: 700px) and (max-width: 1024px) {
+  header {
+  background-color: #920100;
+  }
+  }
+
+  @media only screen and (min-width: 700px) and (max-width: 1024px) {
+  header .nav-menu a{
+  color: #ffffff;
+  }
+  }
+
+  @media only screen and (min-width: 700px) and (max-width: 1024px) {
+    #sync1 .item h1 {
+      font-size: 24px;
+      color: #000000;
+      font-weight: 600;
+      line-height: 32px;
+  }
+  }
+
+  @media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .courusel-container .inside {
+    max-width: 280px;
+  }
+  }
+/* ======================    end media tablet   ========================  */
   header,
   .header-type-2 {
     padding: 25px 0;
