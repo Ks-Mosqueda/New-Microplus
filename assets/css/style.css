@@ -846,17 +846,17 @@ header .mobile-btn span:after {
 }
 .price-plan-block .price-plan-item-inside {
   padding: 51px 35px 26px 35px;
-  background-color: #666666;
+  background-color: #f1f1f1;
   text-align: center;
 }
 .price-plan-block .price-plan-item-inside h4 {
-  color: #fdfdfe;
+  color: #000000;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 3px;
 }
 .price-plan-block .price-plan-item-inside h3 {
-  color: #f9f9fd;
+  color: #666666;
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 21px;
@@ -882,7 +882,7 @@ header .mobile-btn span:after {
   margin-bottom: 28px;
 }
 .price-plan-block .price-plan-text-2 {
-  color: #FFFFFF;
+  color: #666666;
   line-height: 1.7;
   margin-bottom: 26px;
 }
